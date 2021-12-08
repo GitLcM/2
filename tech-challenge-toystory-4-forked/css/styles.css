@@ -1,0 +1,192 @@
+@import "_reset.css";
+/*  Color palette
+    -----------------------
+    color       HEX code  RGB code
+    -------------------------------------
+    red:      	#960001	  rgb(150,0,1)
+    yellow:     #e2e55f	  rgb(226,229,95)
+    green:      #96c25f	  rgb(150,194,95)
+    blue:       #5582c6	  rgb(85,130,198)
+    purple: 	  #79519f	  rgb(121,81,159) 
+
+    fonts
+    -----------------------
+    headings:   Cabin
+    body:       Roboto
+
+    font-sizes:
+    -----------------------
+    h1:   70px
+    h2:   36px
+    h3    24px
+    body: 17px (all other text)
+
+    breakpoints
+    -----------------------
+    desktop: 1200px
+    
+    max-width of the content is 1400px
+*/
+a:link {
+  color: #e2e55f;
+  background-color: transparent;
+  text-decoration: bold;
+}
+
+.titlecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.movieimage {
+  border: solid black;
+  align-items: ;
+  justify-content: ;
+  height: 550px;
+  width: 350px;
+}
+
+.h11 {
+  border: solid black;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 70px;
+  color: #960001;
+}
+
+.h1 {
+  display: inline;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 70px;
+  color: #960001;
+}
+
+.h2 {
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 36px;
+  color: #960001;
+  padding: 5px;
+  margin: 10px;
+}
+
+.h3 {
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 24px;
+  color: #960001;
+}
+
+.p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: white;
+  padding: 15px;
+}
+
+.quotesection {
+  font-family: "Cabin", sans-serif;
+  background-color: yellow;
+  color: red;
+  padding: 40px;
+  margin: 30px;
+  text-align: left;
+}
+
+body {
+  background-color: rgb(85, 130, 198);
+  background-image: url(../images/toystory4_wallpaper.png);
+  background-repeat: no-repeat;
+  padding: 340px;
+  max-width: ;
+  margin: 0 auto;
+}
+
+.line {
+  border-color: #96c25f;
+}
+
+.post-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.post-thumb {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.post-thumb img {
+  margin: 5px;
+  height: 150px;
+  width: 150px;
+  display: block;
+}
+.post-content {
+  margin-left: 60px;
+  margin-bottom: 00px;
+  max-width: 400px;
+  margin-right: 50px;
+}
+.post-title {
+  display: flex;
+  font-weight: bold;
+  font-size: 24px;
+  color: #960001;
+}
+
+.container {
+  float: ;
+  max-width: ;
+  max-height: ;
+  margin: ;
+  background: ;
+  border-radius: ;
+  padding: ;
+}
+.comment {
+  display: block;
+  transition: all 1s;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: white;
+}
+.commentClicked {
+  min-height: 0px;
+  border: 1px solid #5582c6;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.container textarea {
+  display: flex;
+  width: 23%;
+  border: none;
+  background: ;
+  padding: 5px 10px;
+  height: 50%;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: ;
+  transition: all 0.5s;
+  margin-top: 15px;
+}
+button.primaryContained {
+  background: #79519f;
+  color: #fff;
+  width: 40%;
+  padding: 15px 15px;
+  border: none;
+  margin-top: 0px;
+  cursor: pointer;
+  text-transform: ;
+  letter-spacing: 4px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  transition: 1s all;
+  font-size: 17px;
+  border-radius: 5px;
+  max-width: 300px;
+}
+button.primaryContained:hover {
+  background: #9201a8;
+}
